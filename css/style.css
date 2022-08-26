@@ -1315,6 +1315,12 @@ form label {
   }
 }
 @media screen and (max-width: 768px) {
+  .video-mobile {
+    width: 350px !important;
+    height: 185px !important;
+  }
+}
+@media screen and (max-width: 768px) {
   .feature-left .icon {
     margin-right: 5%;
   }
