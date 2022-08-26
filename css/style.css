@@ -403,7 +403,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-counter .event-wrap,
 #fh5co-event .event-wrap {
   border: 2px solid rgba(255, 255, 255, 0.5);
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.3);
   padding: 30px;
   width: 100%;
   float: left;
@@ -1300,6 +1300,21 @@ form label {
   border-radius: 50%;
 }
 @media screen and (max-width: 768px) {
+  .main {
+    background-image:url(../images/mobile.jpg) !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .simply-seconds-section {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mobile-button {
+    margin-top: 150px !important;
+  }
+}
+@media screen and (max-width: 768px) {
   .feature-left .icon {
     margin-right: 5%;
   }
@@ -1342,10 +1357,14 @@ form label {
   color: #fff;
 }
 #fh5co-started .fh5co-heading p {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.9);
+}
+.center {
+  width: 100% !important;
+  margin: auto !important;
 }
 #fh5co-started .form-control {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.4);
   border: none !important;
   color: #fff;
   font-size: 16px !important;
