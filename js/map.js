@@ -36,8 +36,34 @@ function initMap() {
     castle: {
       icon: "images/castle.png",
     },
+    bus: {
+      icon: "images/bus.png",
+    },
+    van: {
+      icon: "images/van.png",
+    },
   };
   const features = [
+    {
+      position: new google.maps.LatLng(48.718000, 2.604979),
+      type: "van",
+      title: "Van",
+      content: '<div id="content">' +
+      '<h4 id="firstHeading" class="firstHeading">Van</h4>' +
+      "Un van proposera des allers retours entre les hôtels du" +
+      "<br />secteur et le château tout au long de la soirée" +
+      "</div>"
+    },
+    {
+      position: new google.maps.LatLng(48.799637, 2.470217),
+      type: "bus",
+      title: "Bus",
+      content: '<div id="content">' +
+      '<h4 id="firstHeading" class="firstHeading">Bus</h4>' +
+      "<p><b>Horaire Aller:</b> 16h00 : Mairie -> Château" +
+      "<br /><b>Horaire Retour:</b> 03h00 : Château -> Bercy" +
+      "</div>"
+    },
     {
       position: new google.maps.LatLng(49.009213, 2.562554),
       type: "airport",
@@ -156,9 +182,14 @@ function initMap() {
   for (let i = 0; i < features.length; i++) {
     const marker = new google.maps.Marker({
       position: features[i].position,
-      icon: icons[features[i].type].icon,
       map: map,
       title: features[i].title,
+			icon: {
+        url: icons[features[i].type].icon,
+				size: new google.maps.Size(64, 64),
+				origin: new google.maps.Point(0, 0),
+				anchor: new google.maps.Point(32, 32)
+			}
     });
     const infowindow = new google.maps.InfoWindow({
       content: features[i].content,
@@ -173,6 +204,7 @@ function initMap() {
   }
 
   const flightPlanCoordinates2 = [
+    {lat:48.846613, lng:2.347456},
     { lat: 48.743427, lng:2.613943 },
     { lat: 48.832050, lng:2.387082 },
   ];
