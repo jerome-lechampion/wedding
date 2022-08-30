@@ -2,8 +2,8 @@ let map;
 
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
-    center: new google.maps.LatLng(48.860005, 2.474388),
-    zoom: 11,
+    center: new google.maps.LatLng(48.787846, 2.471474),
+    zoom: 12,
   });
 
   const iconBase =
