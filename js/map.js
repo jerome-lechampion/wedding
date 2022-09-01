@@ -47,10 +47,10 @@ function initMap() {
     {
       position: new google.maps.LatLng(48.718000, 2.604979),
       type: "van",
-      title: "Van",
+      title: "Navette",
       content: '<div id="content">' +
       '<h4 id="firstHeading" class="firstHeading">Van</h4>' +
-      "Un van proposera des allers retours entre les hôtels du" +
+      "Une navette gratuite proposera des allers-retours entre les hôtels du" +
       "<br />secteur et le château tout au long de la soirée" +
       "</div>"
     },
@@ -61,7 +61,8 @@ function initMap() {
       content: '<div id="content">' +
       '<h4 id="firstHeading" class="firstHeading">Hôtel Abbaye du golf de Lésigny</h4>' +
       "<p><b>Prix moyen:</b> 100€/nuit " +
-      '<br /><b>Transport:</b> Voiture uniquement, Parking gratuit sur place' +
+      '<br /><b>Transport:</b> Voiture ou taxi depuis Paris, Parking gratuit sur place' +
+      '<br />Navette pour rentrer de la soirée depuis le château' +
       '<br /><a href="https://www.hotelabbayedugolf.com/fr/index.html" target="_blanck">' +
       "hotelabbayedugolf.com</a> " +
       "</p>" +
@@ -74,7 +75,8 @@ function initMap() {
       content: '<div id="content">' +
       '<h4 id="firstHeading" class="firstHeading">Kyriad Brie Comte Robert</h4>' +
       "<p><b>Prix moyen:</b> 70€/nuit " +
-      '<br /><b>Transport:</b> Voiture uniquement, Parking gratuit sur place' +
+      '<br /><b>Transport:</b> Voiture ou taxi depuis Paris, Parking gratuit sur place' +
+      '<br />Navette pour rentrer de la soirée depuis le château' +
       '<br /><a href="https://brie-comte-robert.kyriad.com/fr-fr/" target="_blanck">' +
       "brie-comte-robert.kyriad.com</a> " +
       "</p>" +
@@ -86,8 +88,8 @@ function initMap() {
       title: "Hôtel",
       content: '<div id="content">' +
       '<h4 id="firstHeading" class="firstHeading">Hôtel Adagio Paris Bercy</h4>' +
-      "<p><b>Prix moyen:</b> 130€/nuit " +
-      '<br /><b>Transport:</b> Ligne de Métro 14' +
+      "<p><b>Prix moyen:</b> appartement à 165€/nuit pour 4 personnes, 270€/nuit pour 8 personnes " +
+      '<br /><b>Transport:</b> Ligne de Métro 14, bus 24' +
       '<br /><a href="https://www.adagio-city.com/fr/hotel-6789-aparthotel-adagio-paris-bercy-village/index.shtml" target="_blanck">' +
       "adagio-city.com</a> " +
       "</p>" +
@@ -109,11 +111,12 @@ function initMap() {
       title: "Mairie",
       content: '<div id="content">' +
       '<h4 id="firstHeading" class="firstHeading">Mairie du 5ème arrondissement</h4>' +
-      "<p>Cérémonie à 14h00 " +
+      "<p>Cérémonie à XXh00 " +
       '<br /><b>Transport:</b> RER B station Luxembourg ou' +
       '<br />Metro 10 station Cardinal Lemoine ou' +
       '<br />Metro 7 station Place Monge' +
-      '<br />Parking payant à proximité' +
+      '<br />Bus 24' +
+      '<br />Parking payant à proximité, rue Soufflot' +
       "</p>" +
       "</div>"
     },
@@ -123,19 +126,23 @@ function initMap() {
       title: "Église",
       content: '<div id="content">' +
       '<h4 id="firstHeading" class="firstHeading">Église de Saint Étienne du Mont</h4>' +
-      "<p>Cérémonie à 15h00 " +
-      '<br />Parking payant à proximité' +
+      "<p>Cérémonie à XXh00 " +
+      '<br /><b>Transport:</b> RER B station Luxembourg ou' +
+      '<br />Metro 10 station Cardinal Lemoine ou' +
+      '<br />Metro 7 station Place Monge' +
+      '<br />Bus 24' +
+      '<br />Parking payant à proximité, rue Soufflot' +
       "</p>" +
       "</div>"
     },
     {
       position: new google.maps.LatLng(48.743427, 2.613943),
       type: "castle",
-      title: "Château",
+      title: "Château", 
       content: '<div id="content">' +
       '<h4 id="firstHeading" class="firstHeading">Château de Lésigny</h4>' +
       "<p>Cocktail + Dîner à partir de 17h30 " +
-      '<br /><b>Transport:</b> Voiture ou navette' +
+      '<br /><b>Transport:</b> Voiture ou taxi' +
       '<br />Parking gratuit sur place' +
       "</p>" +
       "</div>"
