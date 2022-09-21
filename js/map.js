@@ -111,7 +111,7 @@ function initMap() {
       title: "Mairie",
       content: '<div id="content">' +
       '<h4 id="firstHeading" class="firstHeading">Mairie du 5ème arrondissement</h4>' +
-      "<p>Cérémonie à XXh00 " +
+      "<p>Cérémonie à 14h00 " +
       '<br /><b>Transport:</b> RER B station Luxembourg ou' +
       '<br />Metro 10 station Cardinal Lemoine ou' +
       '<br />Metro 7 station Place Monge' +
@@ -126,7 +126,7 @@ function initMap() {
       title: "Église",
       content: '<div id="content">' +
       '<h4 id="firstHeading" class="firstHeading">Église de Saint Étienne du Mont</h4>' +
-      "<p>Cérémonie à XXh00 " +
+      "<p>Cérémonie à 16h00 " +
       '<br /><b>Transport:</b> RER B station Luxembourg ou' +
       '<br />Metro 10 station Cardinal Lemoine ou' +
       '<br />Metro 7 station Place Monge' +
@@ -141,7 +141,7 @@ function initMap() {
       title: "Château", 
       content: '<div id="content">' +
       '<h4 id="firstHeading" class="firstHeading">Château de Lésigny</h4>' +
-      "<p>Cocktail + Dîner à partir de 17h30 " +
+      "<p>Cocktail + Dîner à partir de 18h00 " +
       '<br /><b>Transport:</b> Voiture ou taxi' +
       '<br />Parking gratuit sur place' +
       "</p>" +
